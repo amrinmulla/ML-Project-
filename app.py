@@ -22,7 +22,7 @@ loyalty = st.selectbox("Loyalty Status", ["Regular", "Silver", "Gold"])
 purchase_freq = st.selectbox("Purchase Frequency", ["rare", "occasional", "frequent"])
 product_category = st.selectbox(
     "Product Category",
-    ["Beauty", "Books", "Clothing", "Electronics", "Food", "Health", "Home"]
+    ["Books", "Clothing", "Electronics", "Food", "Health", "Home"]
 )
 
 if st.button('Predict Customer Type'):
