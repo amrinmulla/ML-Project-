@@ -17,7 +17,7 @@ region = st.selectbox("Region", ["North", "South", "East", "West"])
 satisfaction_score = st.number_input("Satisfaction Score", min_value=0, max_value=10, value=5)
 promo_usage = st.number_input("Promo Usage", min_value=0, value=0)
 gender = st.selectbox("Gender", ["Male", "Female"])
-education = st.selectbox("Education", ["HighSchool", "Bachelor", "Masters", "College"])
+education = st.selectbox("Education", ["HighSchool", "Masters", "College"])
 loyalty = st.selectbox("Loyalty Status", ["Regular", "Silver", "Gold"])
 purchase_freq = st.selectbox("Purchase Frequency", ["rare", "occasional", "frequent"])
 product_category = st.selectbox(
